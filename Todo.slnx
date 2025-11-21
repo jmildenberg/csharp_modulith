@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Todo.Shared.Kernel/Todo.Shared.Kernel.csproj" />
+  </Folder>
+  <Folder Name="/Tasks/">
+    <Project Path="Tasks/Todo.Tasks.Api/Todo.Tasks.Api.csproj" />
+    <Project Path="Tasks/Todo.Tasks.Contracts/Todo.Tasks.Contracts.csproj" />
+    <Project Path="Tasks/Todo.Tasks.Database/Todo.Tasks.Database.csproj" />
+    <Project Path="Tasks/Todo.Tasks.Domain/Todo.Tasks.Domain.csproj" />
+    <Project Path="Tasks/Todo.Tasks.Logic/Todo.Tasks.Logic.csproj" />
+    <Project Path="Tasks/Todo.Tasks.Tests/Todo.Tasks.Tests.csproj" />
+    <Project Path="Tasks/Todo.Tasks.Module/Todo.Tasks.Module.csproj" />
+  </Folder>
+  <Project Path="Todo.WebHost/Todo.WebHost.csproj" />
+</Solution>

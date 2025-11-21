@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="Mapster.DependencyInjection" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Todo.Tasks.Api\Todo.Tasks.Api.csproj" />
+    <ProjectReference Include="..\Todo.Tasks.Database\Todo.Tasks.Database.csproj" />
+    <ProjectReference Include="..\Todo.Tasks.Logic\Todo.Tasks.Logic.csproj" />
+    <ProjectReference Include="..\..\Shared\Todo.Shared.Kernel\Todo.Shared.Kernel.csproj" />
+  </ItemGroup>
+
+</Project>
